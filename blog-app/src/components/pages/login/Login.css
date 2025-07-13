@@ -1,0 +1,89 @@
+/* Font import (only once in your app) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login {
+  height: 100vh;
+  display: flex;
+  background-image: url("https://images.pexels.com/photos/21261/pexels-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #020000;
+}
+
+.loginLeft, .loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 300px;
+  gap: 15px;
+}
+
+.loginTitle {
+  color: #54032b;
+  text-align: center;
+}
+
+.loginInput {
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.loginButton,
+.loginRegisterButton {
+  background-color: #54032b;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover,
+.loginRegisterButton:hover {
+  background-color: #54032b;
+}
+
+.loginForgot {
+  font-size: 14px;
+  color: #0b0707;
+  text-align: center;
+  cursor: pointer;
+}
+
+.loginRight {
+  text-align: center;
+}
+
+.blogIcon {
+  font-size: 80px;
+  color: #54032b;
+  margin-bottom: 20px;
+}
+
+.loginDescription {
+  font-size: 18px;
+  max-width: 400px;
+  color: #54032b;
+}
