@@ -39,7 +39,7 @@ server/ ├── models/ ├── routes/ ├── images/ ├── index.js
 
 In command prompt, run the following commands:
 
-git clone https://github.com/yourusername/blog-app.git
+git clone https://github.com/akshita516/Blog-website.git
 cd blog-app
 
 2. Backend Setup:
