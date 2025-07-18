@@ -1,0 +1,94 @@
+.sidebar{
+    flex: 3;
+    padding: 10px;
+    background-color: rgb(250, 248, 248);
+    color: rgb(43, 40, 40);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    flex-direction: column;
+    display: flex;
+    box-shadow:rgb(43, 40, 40) 0px 0px 10px 0px;
+    margin: 10px;
+}
+
+.sidebarItem{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sidebarItem:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.sidebarItemTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-style:italic;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px;
+    text-align: center;;
+}
+
+.sidebarImg {
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 3px;
+    margin: 10 auto 10px auto;
+    box-shadow: rgb(43, 40, 40) 0px 0px 10px 0px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+.sidebarList{
+    list-style: none;
+    padding: 0px;
+}
+
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin: 5px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sidebarListItem:hover{
+    color: blue;
+    font-weight: 600;
+}
+
+.sidebarSocial{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 40px;
+}
+
+.sidebarIcon{
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.sidebarIcon:hover{
+    color: gray;
+    transform: scale(1.2);
+}
+
+
+.sideBarContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* This is for layout spacing */
+    text-align: justify;           /* This justifies the text */
+}
