@@ -1,6 +1,7 @@
 Full-Stack Blog Application
 
 A dynamic and responsive blog platform built with **React**, **Express.js**, **MongoDB**, and **Multer**. Users can create, edit, and delete posts, upload profile pictures, and explore content by category.
+The actual code is pushed into the master branch of this repository.
 
 ---
 
